@@ -35,7 +35,7 @@ ui <- dashboardPage(
           , body
           )
 
-serrver <- function(input, output) {
+server <- function(input, output) {
   
   meals = reactive(meal.list[c( which(meal.list$Meal == input$mon)
                                ,which(meal.list$Meal == input$tue)
