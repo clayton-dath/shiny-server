@@ -2,6 +2,8 @@ library(shiny)
 library(shinydashboard)
 library(dplyr)
 
+options(shiny.sanitize.errors = FALSE)
+
 function(input, output) {
 
   
