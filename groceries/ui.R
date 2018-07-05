@@ -1,10 +1,6 @@
 library(shiny)
 library(shinydashboard)
 
-meal.list <- read.csv('data/meal.csv')
-
-meals <- unique(meal.list$Meal)
-
 header <-  dashboardHeader(title = "Meal & Grocery Planner")
   
 body <-  dashboardBody(
