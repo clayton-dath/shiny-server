@@ -1,7 +1,7 @@
 library(shiny)
 library(shinydashboard)
 
-meal.list <- read.csv('data/meal.csv', fileEncoding="UTF-8-BOM")
+meal.list <- read.csv('data/meal.csv')
 
 meals <- unique(meal.list$Meal)
 
