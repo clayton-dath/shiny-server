@@ -4,7 +4,7 @@ library(dplyr)
 
 function(input, output) {
 
-  meals = reactive(meal.list[,c(2,3,4,5)])
+  meals = reactive(input$meal.list[,c(2,3,4,5)])
   
   grocery_list = reactive(meals()[meals()$Main.Ingredient == 'y',] %>%
                             group_by(Ingredient) %>%
