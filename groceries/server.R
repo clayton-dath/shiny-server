@@ -1,7 +1,8 @@
+library(shiny)
+library(shinydashboard)
 library(dplyr)
 
-
-server = function(input, output) {
+function(input, output) {
 
   
   meals = reactive(meal.list[c( which(meal.list$ï..Meal == input$mon)
@@ -24,7 +25,4 @@ server = function(input, output) {
   output$condiments = renderDataTable(condiments(), options = list(sDom  = '<"top"><"bottom">'))
   
 }
-
-shinyApp(ui,server)
-
       

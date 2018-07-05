@@ -1,8 +1,6 @@
 library(shiny)
 library(shinydashboard)
 
-setwd("C:/Users/Clayton Dath/Documents/Shiny Apps/Grocery list")
-
 meal.list = read.csv('Meal_list.csv')
 
 meals = unique(meal.list$ï..Meal)
@@ -29,7 +27,7 @@ body =  dashboardBody(
                 
             )
 
-ui = dashboardPage(
+dashboardPage(
             header
           , dashboardSidebar(disable = TRUE)
           , body
