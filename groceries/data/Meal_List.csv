@@ -1,0 +1,68 @@
+﻿Meal,Ingredient,Measurement,Quantity,Main Ingredient
+Shaking Beef Salad,Beef,grams,600,y
+Shaking Beef Salad,Cherry Tomatoes,carton,0.5,y
+Shaking Beef Salad,Red Onion,,0.5,y
+Shaking Beef Salad,Rocket,grams,150,y
+Shaking Beef Salad,Garlic,cloves,2,n
+Shaking Beef Salad,Fish Sauce,tablespoon,1.5,n
+Shaking Beef Salad,Soy Sauce,tablespoon,3,n
+Shaking Beef Salad,Sweet Chilli Sauce,tablespoon,2,n
+Shaking Beef Salad,Honey,tablespoon,2,n
+Shaking Beef Salad,Olive Oil,tablespoon,2,n
+Shaking Beef Salad,Brown Rice,cup,1,y
+Shaking Beef Salad,Roasted Nuts,grams,50,n
+Sushi,Sushi Rice,grams,375,y
+Sushi,Nori Sheets,,5,y
+Sushi,Carrot,,1,y
+Sushi,Salmon,grams,200,y
+Sushi,Chicken Breast,grams,200,y
+Sushi,Capsicum,,1,y
+Sushi,Cucumber,,0.33,y
+Sushi,Soy Sauce,tablespoon,10,n
+Sushi,Brown Sugar,tablespoon,1,n
+Stir Fry,Any Meat,grams,500,y
+Stir Fry,Red Cabbage,,0.25,y
+Stir Fry,Mushrooms,,4,y
+Stir Fry,Carrot,,1,y
+Stir Fry,Capsicum,,1,y
+Stir Fry,Udon Noodles,packs,4,y
+Stir Fry,Soy Sauce,tablespoon,10,n
+Stir Fry,Chili,tablespoon,1,n
+Stir Fry,Garlic,cloves,4,n
+Stir Fry,Brocolli,,0.33,y
+Stir Fry,Red Onion,,1,y
+Meat Balls,Mince,grams,500,y
+Meat Balls,Breadcrumbs,cup,0.5,y
+Meat Balls,Onion,,0.5,y
+Meat Balls,Garlic,cloves,4,n
+Meat Balls,Egg,,1,y
+Meat Balls,Tomatoe Paste,cup,0.5,y
+Meat Balls,Tomatoes Chopped,can,1,y
+Meat Balls,Beef Stock,grams,250,y
+Meat Balls,Oregano,tablespoon,1,n
+Meat Balls,Balsamic Vinegar,tablespoon,1,n
+Meat Balls,Brown Sugar,tablespoon,2,n
+Meat Balls,Olive Oil,tablespoon,1,n
+Meat Balls,Parsley,tablespoon,2,n
+Meat Balls,Thyme,tablespoon,1,n
+Meat Balls,Spaghetti,grams,500,y
+Meat Balls,Cheese,grams,100,y
+Meat Balls,Optional Veges/Salad,,,n
+Burrito,Onion,,1,y
+Burrito,Garlic,cloves,4,n
+Burrito,Mince,grams,500,y
+Burrito,Chili Beans,can,1,y
+Burrito,Other Beans,can,1,y
+Burrito,Cheese,grams,100,y
+Burrito,Tomatoes Chopped,can,1,y
+Burrito,Tomatoe Paste,cup,0.5,y
+Burrito,Wraps,packet,1,y
+Burrito,Oregano,tablespoon,1,y
+Burrito,Chili,tablespoon,1,y
+Burrito,Basil,tablespoon,1,y
+Burrito,Sour Cream,grams,125,n
+Basil Pesto,Pasta (Large Spirals),grams,400,y
+Basil Pesto,Basil Pesto,grams,150,y
+Basil Pesto,Feta,grams,100,y
+Basil Pesto,Cherry Tomatoes,carton,1,y
+Basil Pesto,Olive Oil,tablespoon,4,n
