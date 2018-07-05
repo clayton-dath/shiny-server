@@ -1,13 +1,13 @@
 library(shiny)
 library(shinydashboard)
 
-meal.list = read.csv('data/Meal_list.csv')
+meal.list <- read.csv('data/Meal_list.csv', fileEncoding="UTF-8-BOM")
 
-meals = unique(meal.list$ï..Meal)
+meals <- unique(meal.list$Meal)
 
-header =  dashboardHeader(title = "Meal & Grocery Planner")
+header <-  dashboardHeader(title = "Meal & Grocery Planner")
   
-body =  dashboardBody(
+body <-  dashboardBody(
             column(width = 3,
                    box(width = NULL, status = 'primary', title = "Weekly Meals", solidHeader = TRUE,
                          selectInput('mon','Monday',meals)
