@@ -12,8 +12,6 @@ function(input, output) {
                                ,which(meal.list$Meal == input$sat)
                                ,which(meal.list$Meal == input$sun)),c(2,3,4,5)])
   
-  test = reactive() 
-  
   grocery_list = reactive(meals()[meals()$Main.Ingredient == 'y',] %>%
                             group_by(Ingredient) %>%
                             summarise(Measurement = first(Measurement), Quantity = sum(Quantity)) %>%
