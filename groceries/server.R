@@ -2,8 +2,6 @@ library(shiny)
 library(shinydashboard)
 library(dplyr)
 
-meal.list <- read.csv('data/meal.csv')
-
 function(input, output) {
 
   meals = reactive(meal.list[c( which(meal.list$Meal == input$mon)
@@ -12,7 +10,8 @@ function(input, output) {
                                ,which(meal.list$Meal == input$thu)
                                ,which(meal.list$Meal == input$fri)
                                ,which(meal.list$Meal == input$sat)
-                               ,which(meal.list$Meal == input$sun)),c(2,3,4,5)])
+                               ,which(meal.list$Meal == input$sun)),c(2,3,4,5)]
+                  load(meal.list))
   
   test = reactive() 
   
