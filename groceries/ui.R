@@ -1,7 +1,7 @@
 library(shiny)
 library(shinydashboard)
 
-meal.list = read.csv('Meal_list.csv')
+meal.list = read.csv('data/Meal_list.csv')
 
 meals = unique(meal.list$ï..Meal)
 
