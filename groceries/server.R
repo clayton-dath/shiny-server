@@ -10,8 +10,7 @@ function(input, output) {
                                ,which(meal.list$Meal == input$thu)
                                ,which(meal.list$Meal == input$fri)
                                ,which(meal.list$Meal == input$sat)
-                               ,which(meal.list$Meal == input$sun)),c(2,3,4,5)]
-                  load(meal.list))
+                               ,which(meal.list$Meal == input$sun)),c(2,3,4,5)])
   
   test = reactive() 
   
