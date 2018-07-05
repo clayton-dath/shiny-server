@@ -20,6 +20,7 @@ body <-  dashboardBody(
                    ),
             column(width = 9,
                    box(width = NULL, status = 'primary', title = "Grocery list", solidHeader = TRUE
+                       , textOutput("test")
                        , dataTableOutput("grocery_list")),
                    box(width = NULL, status = 'primary', title = "Condiments", solidHeader = TRUE
                        , dataTableOutput("condiments"))

@@ -15,14 +15,19 @@ function(input, output) {
   
   grocery_list = reactive(meals()[meals()$Main.Ingredient == 'y',] %>%
                             group_by(Ingredient) %>%
-                            summarise(Measurement = first(Measurement), Quantity = sum(Quantity)))
+                            summarise(Measurement = first(Measurement), Quantity = sum(Quantity)) %>%
+                            as.data.frame()
+                          )
   condiments = reactive(meals()[meals()$Main.Ingredient == 'n',] %>%
-                            group_by(Ingredient) %>%
-                            summarise(Measurement = first(Measurement), Quantity = sum(Quantity)))
+                          group_by(Ingredient) %>%
+                          summarise(Measurement = first(Measurement), Quantity = sum(Quantity)) %>%
+                          as.data.frame()
+                        )
   
+  output$test = reactive(class(grocery_list()))
   ## Groceries
-  output$grocery_list = renderDataTable(grocery_list(), options = list(sDom  = '<"top"><"bottom">'))
-  output$condiments = renderDataTable(condiments(), options = list(sDom  = '<"top"><"bottom">'))
+  output$grocery_list = renderDataTable(grocery_list())
+  output$condiments = renderDataTable(condiments())
   
 }
       
