@@ -2,10 +2,6 @@ library(shiny)
 library(shinydashboard)
 library(dplyr)
 
-meal.list <- read.csv('data/meal.csv')
-
-meals <- unique(meal.list$Meal)
-
 function(input, output) {
 
   meals = reactive(meal.list[,c(2,3,4,5)])
